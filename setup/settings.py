@@ -40,7 +40,15 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'usuario.apps.UsuarioConfig',
-    'Despesas.apps.DespesasConfig'
+    'Despesas.apps.DespesasConfig',
+    'transactions.apps.TransactionsConfig',
+    'goals.apps.GoalsConfig',
+    'emergency_fund.apps.EmergencyFundConfig',
+    'debts.apps.DebtsConfig',
+    'dashboard.apps.DashboardConfig',
+    'annual_planning.apps.AnnualPlanningConfig',
+    'accounts.apps.AccountsConfig'
+
 ]
 
 MIDDLEWARE = [
