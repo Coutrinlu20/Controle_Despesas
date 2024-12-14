@@ -47,7 +47,8 @@ INSTALLED_APPS = [
     'debts.apps.DebtsConfig',
     'dashboard.apps.DashboardConfig',
     'annual_planning.apps.AnnualPlanningConfig',
-    'accounts.apps.AccountsConfig'
+    'accounts.apps.AccountsConfig',
+    'reports.apps.ReportsConfig'
 
 ]
 
